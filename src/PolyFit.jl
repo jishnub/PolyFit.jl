@@ -39,6 +39,10 @@ end
 function polyfit(::UnderDeterminedSystem,x::AbstractVector{<:Real},
 	y::AbstractVector{<:Real},n::Integer,sym::Symbol=:x,scaling=nothing)
 
+	if isnothing(scaling)
+		return polyfit(x,y,n,sym)
+	end
+
 	# Returns the least-square solution
 	V = Vandermonde(collect(x))[:,1:n+1]
 	a = _polyfit(V,y,scaling)
