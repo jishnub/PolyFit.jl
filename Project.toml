@@ -1,0 +1,18 @@
+name = "PolyFit"
+uuid = "097a2a50-9c62-45bb-b807-364d9709db4c"
+authors = ["Jishnu Bhattacharya <jishnuonline@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+SpecialMatrices = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
