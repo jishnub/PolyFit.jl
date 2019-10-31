@@ -1,6 +1,6 @@
 module PolyFit
 
-using SpecialMatrices,LinearAlgebra, Polynomials
+using SpecialMatrices,LinearAlgebra, Polynomials, Compat
 import Polynomials: polyfit
 
 export polyfit,
@@ -39,7 +39,7 @@ end
 function polyfit(::UnderDeterminedSystem,x::AbstractVector{<:Real},
 	y::AbstractVector{<:Real},n::Integer,sym::Symbol=:x,scaling=nothing)
 
-	if isnothing(scaling)
+	if @compat isnothing(scaling)
 		return polyfit(x,y,n,sym)
 	end
 

@@ -9,3 +9,5 @@
 [![Codecov](https://codecov.io/gh/jishnub/PolyFit.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/jishnub/PolyFit.jl)
 [![Coveralls](https://coveralls.io/repos/github/jishnub/PolyFit.jl/badge.svg?branch=master)](https://coveralls.io/github/jishnub/PolyFit.jl?branch=master)
 [![Build Status](https://api.cirrus-ci.com/github/jishnub/PolyFit.jl.svg)](https://cirrus-ci.com/github/jishnub/PolyFit.jl)
+
+This package extends Polynomials.jl and provides methods to fit a polynomial to data with error bars. 
