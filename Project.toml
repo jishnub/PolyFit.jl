@@ -10,8 +10,9 @@ Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 SpecialMatrices = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
 
 [compat]
-julia = "1"
 Compat = "2.1"
+SpecialMatrices = "1.0"
+julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
