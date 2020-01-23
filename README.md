@@ -24,7 +24,7 @@ Solving the equation system is equivalent to minimizing the misfit
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cchi%5E%7B2%7D%3D%5Cleft%5C%7B%20X%5Cmathbf%7Ba%7D-%5Cmathbf%7By%7D%5Cright%5C%7D%20%5E%7BT%7DC%5E%7B-1%7D%5Cleft%5C%7B%20X%5Cmathbf%7Ba%7D-%5Cmathbf%7By%7D%5Cright%5C%7D,)
 
-where `C` is the covariance matrix. The diagonal elements of the covariance matrix are the variances in `y`. Fitting data without error bars is equivalent to setting `C = σ^-2 I` for a constant `σ`.
+where `C` is the covariance matrix. The diagonal elements of the covariance matrix are the variances in `y`. Fitting data without error bars is equivalent to setting `C = σ^2 I` for a constant `σ`.
 
 # Installation
 
